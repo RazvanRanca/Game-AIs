@@ -102,6 +102,6 @@ def prettyPrintMat(mat):
 if __name__ == '__main__':
 
   #print '\n'.join(map(lambda x:''.join(map(str,x)), getMatrix(4,4,4,2,2)))
-  s = 4
+  s = 5
   prettyPrint(getSolution(getMatrix(s*s,s*s,s*s,s,s),[]),s*s,s*s,s*s,s,s)
   #prettyPrint(getSolution(getMatrix(),readMoves('sudokuTest')))
