@@ -11,7 +11,7 @@ Dancing Links finds all the solutions to the exact cover problem and, it turns o
 
 Specifically I implemented:
 * Sudoku (http://en.wikipedia.org/wiki/Sudoku). Encodes the three intuitive restrictions forcing each number to appear on every row, column and in every box. It also requires an extra restriction saying that only one number can appear in each cell. (see: http://en.wikipedia.org/wiki/Exact_cover#Sudoku for details). It can solve blank or already started boards quite efficiently. A standard sudoku board is solved instantly and a 25x25 board takes under 20 seconds.
-* N Queens (http://en.wikipedia.org/wiki/N-queens). The four intuitive restrictions are all that are necessary here (one queen on every row, column, principal diagonal and secondary diagonal). This implementation is quite efficient, with a 17x17 board being solved in under 10 seconds.
+* N Queens (http://en.wikipedia.org/wiki/N-queens). The four intuitive restrictions are all that are necessary here (one queen on every row, column, principal diagonal and secondary diagonal). This implementation is quite efficient too. 
 
 **Boggle** - http://en.wikipedia.org/wiki/Boggle
 Finds all legal words included in the dictionary file it is given. It is quite fast, being able to solve a boggle board 100 times bigger than the standard one in under 5 minutes.
