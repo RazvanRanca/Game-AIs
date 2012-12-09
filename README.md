@@ -1,7 +1,7 @@
 Game-AIs
 ========
 
-Bots and AIs of varying complexity
+Bots and AIs of varying complexity 
 
 TicTacToe, DotsAndBoxes and AntiChess were originally made for a competition held at https://www.hackerrank.com (I placed third). The others were done just for fun.
 
